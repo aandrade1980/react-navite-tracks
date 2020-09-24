@@ -22,7 +22,7 @@ const TrackListScreen = ({ navigation }) => {
                 navigation.navigate('TrackDetail', { _id: item._id })
               }
             >
-              <ListItem Chevron title={item.name} />
+              <ListItem chevron title={item.name} />
             </TouchableOpacity>
           );
         }}
